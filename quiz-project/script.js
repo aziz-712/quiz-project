@@ -48,7 +48,7 @@ const quizData = [
 
 const quiz = document.getElementById("quiz");
 const radios = document.getElementsByName("answer");
-console.log(radios);
+
 // this is for changing text
 const question = document.getElementById("question");
 const a = document.getElementById("a_text");
