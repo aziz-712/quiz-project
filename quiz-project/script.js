@@ -99,7 +99,7 @@ button.addEventListener("click", () => {
     } else {
       quiz.innerHTML = `
         <div class="card quiz-container">
-          <h2>You have answered ${score} out of ${quizData.length} questions!
+          <h2>You have answered ${score} out of ${quizData.length} questions correctly!
           <button onclick="location.reload()">Reload</button>
         </div>`;
     }
